@@ -40,7 +40,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     </style>
 
     <!-- Use CKEditor 5 LTS version -->
-    <link rel="stylesheet" href="https://cdn.ckeditor.com/ckeditor5/44.3.0/ckeditor5.css" crossorigin>
+    <link rel="stylesheet" href="./ckeditor5/ckeditor5.css" crossorigin>
 </head>
 <body>
 
@@ -54,10 +54,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <h2>Enter Your Template</h2>
 </div>
 
-<div class="w3-panel w3-red">
-<h2><i class="fa fa-warning"></i> Out of Order</h2>
-<p>The template tester is currently out of order while I try to figure out what is wrong with it. It was working properly a few weeks ago but has stopped.</p>
-</div>
 
 <div class="w3-container w3-padding-16">
     <form method="post" class="w3-container w3-card-4 w3-light-grey w3-padding-16">
@@ -75,7 +71,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     </form>
 </div>
 
-<script src="https://cdn.ckeditor.com/ckeditor5/44.3.0/ckeditor5.umd.js" crossorigin></script>
+<script src="./ckeditor5/ckeditor5.umd.js"" crossorigin></script>
 <script>
     let editorInstance;
 
