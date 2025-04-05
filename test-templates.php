@@ -31,8 +31,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <meta charset="UTF-8">
     <title>GeekyLibs - Enter Template</title>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="http://172.234.245.214/style.css">
-    <link rel="stylesheet" href="http://172.234.245.214/styles.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
     @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@600&display=swap');
@@ -51,7 +51,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 <div class="w3-container w3-green w3-center">
     <h1 class="fira-code-header">GeekyLibs</h1>
-    <h2>Enter Your Template</h2>
+    <h2 class="fira-code-header">Enter Your Template</h2>
 </div>
 
 

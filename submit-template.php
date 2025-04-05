@@ -44,6 +44,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_FILES['template_file'])) {
     <meta charset="UTF-8">
     <title>Submit a Template | GeekyLibs</title>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="./styles.css">
     <style>
     @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@600&display=swap');
     @import url('https://fonts.googleapis.com/css?family=Lobster&effect=shadow-multiple');
@@ -54,8 +55,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_FILES['template_file'])) {
 <?php require("menu.php"); ?> <!-- Include your menu -->
 
 <div class="w3-container w3-green w3-center">
-    <h1>Submit Your Template</h1>
-    <h2>Upload Your Template File (Text Format)</h2>
+    <h1 class="fira-code-header">Submit Your Template</h1>
+    <h2 class="fira-code-header">Upload Your Template File (Text Format)</h2>
 </div>
 
 <div class="w3-container w3-padding-16">

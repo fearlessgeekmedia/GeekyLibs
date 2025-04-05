@@ -55,7 +55,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <meta charset="UTF-8">
     <title>GeekyLibs</title>
 
-    <link rel="stylesheet" href="http://172.234.245.214/styles.css">
+    <link rel="stylesheet" href="./styles.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <style>
     @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@600&display=swap');
